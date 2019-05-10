@@ -1418,9 +1418,9 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
-elastic-apm-http-client@^7.2.2:
+elastic-apm-http-client@^7.3.0:
   version "7.3.0"
-  resolved "https://registry.npmjs.org/elastic-apm-http-client/-/elastic-apm-http-client-7.3.0.tgz#3722aa9cd1f08cbfe9b777e384e6fdffa3a5b49d"
+  resolved "https://registry.yarnpkg.com/elastic-apm-http-client/-/elastic-apm-http-client-7.3.0.tgz#3722aa9cd1f08cbfe9b777e384e6fdffa3a5b49d"
   integrity sha512-NFUa/UV9Cu3d2eJH5xbSJ8LcwXRpqbHLFZh/AXLHs97jOYqVUXjnUZNU+cUUa5JubKFwmZZkdSZ7tThgyNzR1g==
   dependencies:
     breadth-filter "^2.0.0"
@@ -1433,10 +1433,10 @@ elastic-apm-http-client@^7.2.2:
     stream-chopper "^3.0.1"
     unicode-byte-truncate "^1.0.0"
 
-elastic-apm-node@^2.10.0:
-  version "2.10.0"
-  resolved "https://registry.npmjs.org/elastic-apm-node/-/elastic-apm-node-2.10.0.tgz#c9fe3662b193830775131f26a4a5bd5b909f761c"
-  integrity sha512-UCfdoLGu3wgY59dF9/kmUVgLAV2iYT1eAdDo8/JXpTpPCgW0LaOKra6tLhG6pEBtUUfxDWACsnPNnELd+dVLsg==
+elastic-apm-node@^2.11.1:
+  version "2.11.1"
+  resolved "https://registry.yarnpkg.com/elastic-apm-node/-/elastic-apm-node-2.11.1.tgz#8fd3c1a7f540866bd456acbbba4c5d27fd7ca893"
+  integrity sha512-/M4dMchVnHnQj279NcA51Zoo9XxZJb08Nf7zG+QhDPJbryjDTp2iuAnbR3rrJV9OcefMRM4R+ZliJC+eMpkwpQ==
   dependencies:
     after-all-results "^2.0.0"
     async-value-promise "^1.1.1"
@@ -1444,13 +1444,14 @@ elastic-apm-node@^2.10.0:
     console-log-level "^1.4.0"
     cookie "^0.3.1"
     core-util-is "^1.0.2"
-    elastic-apm-http-client "^7.2.2"
+    elastic-apm-http-client "^7.3.0"
     end-of-stream "^1.4.1"
     fast-safe-stringify "^2.0.6"
     http-headers "^3.0.2"
     is-native "^1.0.1"
     measured-reporting "^1.41.0"
     object-filter-sequence "^1.0.0"
+    object.entries "^1.1.0"
     original-url "^1.2.2"
     read-pkg-up "^4.0.0"
     redact-secrets "^1.0.0"
@@ -4143,7 +4144,7 @@ object-visit@^1.0.0:
   dependencies:
     isobject "^3.0.0"
 
-object.entries@^1.0.4:
+object.entries@^1.0.4, object.entries@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/object.entries/-/object.entries-1.1.0.tgz#2024fc6d6ba246aee38bdb0ffd5cfbcf371b7519"
   integrity sha512-l+H6EQ8qzGRxbkHOd5I/aHRhHDKoQXQ8g0BYt4uSweQU1/J6dZUOyWh9a2Vky35YCKjzmgxOzta2hH6kf9HuXA==
